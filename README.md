@@ -1,6 +1,7 @@
 # time-range-picker-react
 Time range picker for react
 
+![Time_Range_Picker_Demo](/assets/Time-Range-Picker-Demo.gif)
 
 ## Sources
 * Component 소스 
