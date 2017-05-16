@@ -31,3 +31,7 @@ Time range picker for react
     available={{start: '08:00', end: '23:00'}} 
     unavailable={[{start:'09:30', end:'10:30'}, {start:'15:00', end:'20:00'}]} />
 ```
+
+## 업데이트 될 예정인 기능
+* 선택 가능한 Time Box 개수 제한 기능
+* npm 에 publish
