@@ -1,0 +1,65 @@
+.time-range-picker-wrap {
+    padding: 15px 0;
+    overflow-x : auto;
+}
+.time-range-picker {
+    width:100%;
+    font-size:10px;
+}
+.time-range-picker-table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.time-range-picker-table[data-width="sm"] {width:100%;}
+.time-range-picker-table[data-width="md"] {width:120%;}
+.time-range-picker-table[data-width="lg"] {width:140%;}
+@media (max-width: 768px) {
+    .time-range-picker-table[data-width="md"] {width:300%;}
+    .time-range-picker-table[data-width="lg"] {width:330%;}
+}
+@media (min-width: 768px) {
+    .time-range-picker-table[data-width="md"] {width:180%;}
+    .time-range-picker-table[data-width="lg"] {width:200%;}
+}
+@media (min-width: 992px) {
+    .time-range-picker-table[data-width="md"] {width:150%;}
+    .time-range-picker-table[data-width="lg"] {width:180%;}
+}
+@media (min-width: 1200px) {
+    .time-range-picker-table[data-width="md"] {width:140%;}
+    .time-range-picker-table[data-width="lg"] {width:160%;}
+}
+
+
+.time-range-picker .time-range-picker-box,
+.time-range-picker .time-range-picker-label {
+    vertical-align: middle;
+    word-break: break-all;
+}
+.time-range-picker .time-range-picker-box{
+    border:1px solid #cecece;
+    border-left:0;
+    cursor:pointer;
+    height:25px;
+    position: relative;
+}
+.time-range-picker .time-range-picker-box:first-child{
+    border-left: 1px solid #cecece;
+}
+.time-range-picker .time-range-picker-label {
+    cursor:default;
+    border-left: 1px solid #cecece;
+}
+/*.time-range-picker-timebox {left:12px;}*/
+
+/*Hover, Active, Will be active, Disabled*/
+.time-range-picker .time-range-picker-box.is-active {
+    background-color: #00848b;
+}
+.time-range-picker .time-range-picker-box.will-be-active {
+    background-color: #33dacd;
+}
+.time-range-picker .time-range-picker-box.is-disabled {
+    background-color: #c4c4c4;
+    cursor: default;
+}
