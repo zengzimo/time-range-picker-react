@@ -212,9 +212,9 @@ TimeRangePicker.defaultProps = {
 };
 
 TimeRangePicker.propTypes = {
-    unit: PropTypes.number,
-    available : PropTypes.object,
-    unavailable: PropTypes.array,
+    unit: PropTypes.number.isRequired,
+    available : PropTypes.object.isRequired,
+    unavailable: PropTypes.array.isRequired,
     limit : PropTypes.number,
     style: PropTypes.object
 };
@@ -265,7 +265,7 @@ class TimeRangeBox extends React.Component {
 
         return (
             <td className={"time-range-picker-box " + className}></td>
-		);
+        );
     }
 }
 
