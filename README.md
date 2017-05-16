@@ -2,7 +2,7 @@
 Time range picker for react
 
 
-## 소스
+## Sources
 * Component 소스 
     - src/components/TimeRangePicker.js
 * CSS 소스
@@ -23,7 +23,7 @@ Time range picker for react
     * 타입 : Array - [{start: .., end: ..}, ..]
     * ```[{start: "01:00", end: "02:00"}, {start:"05:00", end:"06:30"}]```
 
-## Component 사용 예시
+## Example
 ```
 <TimeRangePicker 
     unit={30} 
